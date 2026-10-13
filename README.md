@@ -2,7 +2,7 @@
 
 A two-layer controller board for a two-wheeled self-balancing robot, designed in Altium Designer. It combines an ESP32-S3 for control and wireless, a 6-axis IMU for tilt sensing, a dual H-bridge for two encoder motors, and the full power tree from a single 12 V input.
 
-**Status:** Rev A — [fabricated and brought up / design complete, not yet fabricated]
+**Status:** Rev A — [fabricated and brought up]
 
 ## Block diagram
 
@@ -81,8 +81,7 @@ A post-layout design review turned up the following. Items are ordered by severi
 ```
 ├── README.md
 ├── docs/     schematic PDF, PCB images, 3D render
-├── altium/   Altium project (.PrjPcb, .SchDoc, .PcbDoc, libraries)
-└── fab/      Gerbers and BOM
+├── altium/   Altium project (.PrjPcb, .SchDoc, .PcbDoc)
 ```
 
 ## Author
