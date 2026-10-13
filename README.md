@@ -32,21 +32,6 @@ flowchart LR
 | 3.3 V rail | AMS1117-3.3 (U3) | 10 µF + 0.1 µF on input and output |
 | Connectors | J1/J2 motors (6-pin), J3 12 V input, J4 UART, J5 buck module | |
 
-### ESP32-S3 pin map
-
-| Signal | GPIO | | Signal | GPIO |
-|---|---|---|---|---|
-| ENC_LA | IO4 | | MOTOR_PWMA | IO11 |
-| ENC_LB | IO5 | | MOTOR_AIN1 | IO12 |
-| ENC_RA | IO6 | | MOTOR_AIN2 | IO13 |
-| ENC_RB | IO7 | | MOTOR_STBY | IO14 |
-| MOTOR_PWMB | IO15 | | I2C_SCL | IO41 |
-| MOTOR_BIN1 | IO16 | | I2C_SDA | IO42 |
-| MOTOR_BIN2 | IO17 | | IMU_INT | IO45 *(moving in Rev B)* |
-| UART_RX / TX | RXD0 / TXD0 | | BOOT button | IO0 |
-
----
-
 ## Design highlights
 
 ### The buck converter is a plug-in module
