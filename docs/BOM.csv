@@ -1,0 +1,16 @@
+Designator,Qty,Value,Description,Manufacturer,Part Number,Package
+B1,1,ESP32-S3-WROOM-1,Wi-Fi/BLE MCU module,Espressif,ESP32-S3-WROOM-1-[variant],Module
+B2,1,TB6612FNG,Dual H-bridge motor driver,Toshiba,TB6612FNG,SSOP-24
+U1,1,BMI160,6-axis IMU (accel + gyro),Bosch,BMI160,LGA-14
+U3,1,AMS1117-3.3,3.3 V LDO regulator,Advanced Monolithic Systems,AMS1117-3.3,SOT-223
+"C1, C5, C8",3,10uF,Ceramic capacitor,,,TBD
+"C2, C3, C4, C6, C7, C10, C12",7,0.1uF,Ceramic capacitor,,,TBD
+C9,1,1uF,Ceramic capacitor,,,TBD
+C11,1,470uF,Electrolytic capacitor (rating >= 25 V),,,Radial THT
+"R1, R2",2,4.7k,Resistor (I2C pull-up),,,TBD
+R3,1,10k,Resistor (EN pull-up),,,TBD
+"S1, S2",2,B3F-1000,Tactile switch (RESET / BOOT),Omron,B3F-1000,THT 6x6 mm
+"J1, J2",2,MOTOR_L / MOTOR_R,6-pin motor + encoder connector,,,TBD
+J3,1,HDR2,2-pin 12 V power input,,,TBD
+J4,1,UART,4-pin UART header,,,1x4 2.54 mm
+J5,1,MOD_LM2596,4-pin header for LM2596 buck module,,,1x4 2.54 mm
